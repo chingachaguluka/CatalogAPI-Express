@@ -46,3 +46,21 @@ db.products.insert({
     ],
     protectionServices: ['damage', 'battery', 'screen cracking']
 });
+
+
+{
+    "name": "VIZIO - 43 Class - LED - 2160p - with Chromecast Built-in - 4K Ultra HD",
+    "category": "Electronics",
+    "model": "E43U-D2",
+    "sku": "4988400",
+    "img": "https://somesite.com/someingae.jpg",
+    "price": 1200,
+    "pickupAvailable": false,
+    "description": "Get fantastic image quality and great sound with this 43-inch VIZIO SmartCast E-Series UHD home theater display. It has 10 active LED zones so that it delivers dark blacks and bright whites for incredible contrast. This VIZIO SmartCast E-Series UHD home theater display also includes Chromecast built-in, the easiest way to stream apps you know and love from your phone or tablet",
+    "releaseDate": ISODate("2016-11-30"),
+    "protectionServices": [
+      "damage",
+      "falling",
+      "screen cracking"
+    ]
+  }

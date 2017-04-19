@@ -1,0 +1,25 @@
+{
+  "name": "catalog-api-express",
+  "version": "1.0.0",
+  "description": "API for customers database based on express and mongodb, using mongodb as engine",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "catalog",
+    "express",
+    "api"
+  ],
+  "author": "Chinga Chaguluka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongojs": "^2.4.0"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4"
+  }
+}

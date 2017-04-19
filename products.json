@@ -1,0 +1,48 @@
+db.products.insert({
+    name: 'Google Pixel C',
+    category: 'Electronics',
+    model: '765-GBG761',
+    sku: '456090865',
+    img: 'https://somesite.com/someingae.jpg',
+    price: 567.99,
+    pickupAvailable: true,
+    description: 'Cool tablet',
+    releaseDate: ISODate("2015-09-01"),
+    specifications: {
+        height: '7 inches',
+        width: '10.52 inches',
+        weight: '21 ounches',
+        batteryLife: '10 hours',
+        dispayType: 'LCD',
+        touchScreen: true,
+        memory: '4GB',
+        processorType: 'ARM'
+    },
+    reviews: [
+        {
+           subject: 'Great Tablet',
+           body: 'This is a great product and its very simple to use and the display is amazing',
+           rating: '4.5',
+           user: 'Ladmir Putin',
+           date: ISODate("2015-12-07"),
+           wouldRecommend: true 
+        },
+        {
+           subject: 'Mixed review',
+           body: 'Too slow and without sd slot',
+           rating: '4',
+           user: 'Bill Clinton',
+           date: ISODate("2016-11-07"),
+           wouldRecommend: true 
+        },
+        {
+           subject: 'Nonsense',
+           body: 'I like windows tablets, this does not cut it',
+           rating: '1',
+           user: 'Robert Mugabe',
+           date: ISODate("2017-01-21"),
+           wouldRecommend: false 
+        }
+    ],
+    protectionServices: ['damage', 'battery', 'screen cracking']
+});
